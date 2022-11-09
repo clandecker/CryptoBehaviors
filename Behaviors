@@ -1,0 +1,10 @@
+Block difficulty reward:
+  - if a block is mined with double the current difficulty (e.g 8 zeros instead of 4), 
+  - mint 3 times the normal reward to the user
+Creating currency based on timestamp:
+  - if a block is mined at exactly 11:11:11 am on a Monday in pacific time 
+  _ mint 11 times the current reward for user
+Destroying based on gas cost:
+  - if the transactions of past 10 gas costs are over 10% of transaction amount
+  - burn 10% of the next user's transaction
+
